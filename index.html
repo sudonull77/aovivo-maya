@@ -111,20 +111,18 @@
             background-clip: text;
         }
 
-        .image-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 15px;
+        .image-single {
+            text-align: center;
         }
 
-        .image-grid img {
-            width: 100%;
+        .image-single img {
+            max-width: 100%;
             border-radius: 12px;
             border: 1px solid rgba(168, 85, 247, 0.2);
             transition: transform 0.3s ease;
         }
 
-        .image-grid img:hover {
+        .image-single img:hover {
             transform: scale(1.02);
         }
 
@@ -333,9 +331,8 @@
             <span style="font-size:1.5rem;">📸</span>
             <h2>VEJA SÓ</h2>
         </div>
-        <div class="image-grid">
-            <img src="CRIATIVO.png" alt="Maya 1">
-            <img src="image.png" alt="Maya 2">
+        <div class="image-single">
+            <img src="CRIATIVO.png" alt="Maya">
         </div>
     </div>
 
